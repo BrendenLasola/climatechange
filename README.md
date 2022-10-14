@@ -1,4 +1,5 @@
-# Assignment 4: Climate Change
-In this assignment, you'll build an interactive Shiny application exploring CO2 emissions data. You'll need to create all of the necessary files for your work (e.g., `app.R`, `app_ui.R`, `app_server.R`). See Canvas for details.
+Shiny App: https://yunghiro.shinyapps.io/co2_climatechange/
 
-Once you have completed your work, make sure to host your application on https://www.shinyapps.io/. 
+Created a shiny app that showed the different ways C02 is being emmitted in the USA over the years.  
+The goal of this project was to get better at using the shiny app, I initially tried to use different files for server and ui but it wasn't publishing the app.
+I created a new app.r that had both analysis, ui, and server. This worked perfectly 

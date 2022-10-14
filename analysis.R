@@ -26,10 +26,11 @@ not_countries <-  c("Asia (excl. China & India)", "Asia", "Central African Repub
 co2_country <- co2_data %>%
   filter(!(country %in% not_countries))
 
-#looking at the different co2 causes in north america over the years
+#looking at the different co2 causes in north america for the max year(2020)
 na_co2 <- co2_data %>%
+  filter(year == max(year)) %>%
   filter(country == "United States") %>%
-  select(year, cement_co2, coal_co2, gas_co2,
+  select(country, cement_co2, coal_co2, gas_co2,
          flaring_co2, oil_co2, other_industry_co2)
 
 #most oil in the latest year

@@ -2,7 +2,7 @@ library(dplyr)
 library(shiny)
 library(ggplot2)
 
-co2_data <- read.csv("owid-co2-data.csv")
+co2_data <- read.csv(url(urlfile))
 
 page_one <-   page_one <- tabPanel(
   "How C02 is being emmited into the air.",

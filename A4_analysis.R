@@ -85,6 +85,6 @@ na_gas <- co2_country %>%
 na_oil <- co2_country %>%
   filter(country == "United States") %>%
   filter(oil_co2 == max(oil_co2, na.rm = TRUE)) %>%
-  select(year, oil_co2)
+  select(year, oil_co2)q
 
 

@@ -1,4 +1,4 @@
-# OWID Climate Change CO2 Data Analysi
+# OWID Climate Change CO2 Data Analysis
 
 ## Main Questions:
 1. What industry is creating the most CO2?
